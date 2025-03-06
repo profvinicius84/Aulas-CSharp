@@ -97,25 +97,6 @@ while (continuar != '0')
     } while (Console.ReadKey().KeyChar == '1');
 
 
-
-
-    ///2 - Mudar de jogador, 3 - Listar jogadores e estatísticas
-
-    //if (jogarDeNovo == '2')
-    //{
-    //    break;
-    //}
-    //else if (jogarDeNovo == '3')
-    //{
-    //    Console.WriteLine("\nJogadores e suas estatísticas:");
-    //    foreach (var jogador in jogadores)
-    //    {
-    //        Console.WriteLine($"{jogador.Key}: {jogador.Value.vitórias} vitórias, {jogador.Value.empates} empates, {jogador.Value.derrotas} derrotas");
-    //    }
-    //}
-
-
-
     Console.WriteLine("\nO que deseja fazer agora?");
     Console.WriteLine("1 - Continuar com outro jogador, 2 - Listar jogadores e estatísticas, 0 - Sair");
     continuar = Console.ReadKey().KeyChar;
