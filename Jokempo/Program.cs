@@ -59,4 +59,3 @@ while(continuar == '1')
     continuar = Console.ReadKey().KeyChar;
 }
 Console.WriteLine("👋 Tchau! Até a próxima");
-/////
